@@ -47,7 +47,12 @@ body{
     color: #CF381D!important
 }
  
-
+.text33{
+    padding:1em!important;
+    background: rgba(255,255,255,0.5) !important;
+    display: inline-block;
+    border-radius: 5px;
+}
 
 /*  image effect  */
 
