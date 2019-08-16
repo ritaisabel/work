@@ -211,7 +211,7 @@ footer1 {
              filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
          -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083";
     position: absolute;
-    top:150%;
+    top:140%;
     left: 0px;
     color: black;
     z-index: 99999;
