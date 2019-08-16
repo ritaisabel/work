@@ -48,11 +48,13 @@ body{
 }
  
 .text33{
-    padding:1em!important;
+    
     background: rgba(255,255,255,0.5) !important;
-    display: inline-block;
-    border-radius: 5px;
+    display: block; 
+    left:25%;
 }
+
+
 
 /*  image effect  */
 
@@ -216,10 +218,9 @@ footer1 {
              filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083);  /* IE6,IE7 */
          -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083";
     position: absolute;
-    top:140%;
+    top:150%;
     left: 0px;
     color: black;
-    z-index: 99999;
     position: absolute;
 }
 
