@@ -13,6 +13,18 @@ body{
     
 }
 
+.home-image{
+    background-image: url("https://i.imgur.com/3Pk7lJk.jpg");
+   
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url("https://i.imgur.com/qBrEUAQ.jpg");
+  }
+}
+
+
 .container{
     background-color: white !important;
 }
