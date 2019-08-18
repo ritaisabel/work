@@ -18,13 +18,7 @@ body{
    
 }
 
-@media handheld, only screen and (max-width: 1024px) 
-{
-  body {
-    background-image: url("https://i.imgur.com/qBrEUAQ.jpg");
-  }
 
-}
 h5{
     font-size: 1.00rem!important;
 }
@@ -233,9 +227,9 @@ footer1 {
          -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0.083";
     position: absolute;
     top:150%;
-    left: 0px;
+    left: -15px;
     color: black;
-    position: absolute;
+    position:absolute;
 }
 
 
