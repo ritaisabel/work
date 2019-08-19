@@ -14,7 +14,7 @@ body{
 }
 
 .home-image{
-    background-image: url("https://i.imgur.com/p2iezYh.jpg");
+    background-image: url("https://i.imgur.com/272WDCL.jpg");
     -webkit-animation-name: back-ground;
   -webkit-animation-duration: 20s;
   -webkit-animation-direction:normal;
@@ -28,25 +28,25 @@ body{
 @-webkit-keyframes back-ground {
     
    0%{
-    background-image: url("https://i.imgur.com/p2iezYh.jpg");
+    background-image: url("https://i.imgur.com/272WDCL.jpg");
   }
     15% {
-    background-image: url("https://i.imgur.com/p2iezYh.jpg");
+    background-image: url("https://i.imgur.com/272WDCL.jpg");
   }
   33% {
-    background-image: url('https://i.imgur.com/3Pk7lJk.jpg');
+    background-image: url('https://i.imgur.com/QBO7toN.jpg');
   }
     48%{
-    background-image: url('https://i.imgur.com/3Pk7lJk.jpg');
+    background-image: url('https://i.imgur.com/QBO7toN.jpg');
   }
   66% {
-    background-image: url('https://i.imgur.com/QBO7toN.jpg');
+    background-image: url('https://i.imgur.com/p2iezYh.jpg');
   }   
     81%{
-    background-image: url('https://i.imgur.com/QBO7toN.jpg');
+    background-image: url('https://i.imgur.com/p2iezYh.jpg');
   } 
     100%{
-    background-image: url('https://i.imgur.com/p2iezYh.jpg');
+    background-image: url('https://i.imgur.com/272WDCL.jpg');
   }  
 }
   
