@@ -28,25 +28,25 @@ body{
 @-webkit-keyframes back-ground {
     
    0%{
-    background-image: url("https://i.imgur.com/iPWTMax.jpg");
+    background-image: url("https://i.imgur.com/WDbsWzc.jpg");
   }
     15% {
-    background-image: url("https://i.imgur.com/iPWTMax.jpg");
+    background-image: url("https://i.imgur.com/WDbsWzc.jpg");
   }
   33% {
-    background-image: url('https://i.imgur.com/WDbsWzc.jpg');
+    background-image: url('https://i.imgur.com/3Pk7lJk.jpg');
   }
     48%{
-    background-image: url('https://i.imgur.com/WDbsWzc.jpg');
+    background-image: url('https://i.imgur.com/3Pk7lJk.jpg');
   }
   66% {
-    background-image: url('https://i.imgur.com/3Pk7lJk.jpg');
+    background-image: url('https://i.imgur.com/QBO7toN.jpg');
   }   
     81%{
-    background-image: url('https://i.imgur.com/3Pk7lJk.jpg');
+    background-image: url('https://i.imgur.com/QBO7toN.jpg');
   } 
     100%{
-    background-image: url('https://i.imgur.com/iPWTMax.jpg');
+    background-image: url('https://i.imgur.com/WDbsWzc.jpg');
   }  
 }
   
