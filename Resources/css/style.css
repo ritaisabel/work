@@ -108,13 +108,14 @@ h5{
 
 
 
-logo{
-	color:  black;
-	font: normal 60px 'Marguaritas';
+.logo{
+	width: auto;
+    height: 60px;
 }
 
-logo span{
-	color:  #CF381D;
+.logofooter{
+	width: auto;
+    height: 40px;
 }
 
 
