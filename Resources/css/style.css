@@ -355,4 +355,11 @@ footer1 {
 		100%{text-shadow: none;}
     
 } 
- 
+ @media only screen and (max-width: 780px) {
+  .work {
+    
+    left: 42%;
+   ´
+
+  } 
+}
