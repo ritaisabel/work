@@ -179,13 +179,16 @@ footer1 {
 
 .NunoSilva{
     font-size: 16px;
-    color:gray;
+    color:#CF381D;
     text-decoration: none;
+    animation: shake1 2s; 
+    
+	animation-iteration-count: infinite; 
     
 }
 
 .NunoSilva:hover{
-    color:#CF381D;
+    color:gray;
     text-decoration: none;
     
 }
@@ -296,3 +299,59 @@ footer1 {
     color: white;
     text-decoration: none;
 }
+
+
+/* button */
+
+ .work {
+    
+    font-family: Marguaritas;
+    bottom:20px;
+    margin: auto;
+    left: 47%;
+    position:absolute;
+    text-decoration: none;
+    color:#CF381D;
+     animation: shake 2s;
+  text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+	/* When the animation is finished, start again */
+	animation-iteration-count: infinite; 
+
+  } 
+
+.imgshake {
+    left: 50%;
+    bottom:60px;
+    margin: auto;
+    position:absolute;
+    text-decoration: none;
+    color:#CF381D;
+	/* Start the shake animation and make the animation last for 0.5 seconds */
+	animation: shake 2s;
+    text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
+  
+	/* When the animation is finished, start again */
+	animation-iteration-count: infinite; 
+  }
+  
+  @keyframes shake {
+
+	50%{
+      transform: translateY(10px);}
+	
+		95%{
+      transform: translateY(-10px);}
+		
+  }
+
+  @keyframes shake1 {
+
+	50%{text-shadow: none;}
+	
+		55%{text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;}
+	
+		95%{text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;}
+			
+		100%{text-shadow: none;}
+		
+  }
