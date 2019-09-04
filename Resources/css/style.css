@@ -305,9 +305,9 @@ footer1 {
 
  .work {
     
-    bottom:20px;
+    bottom:10px;
     margin: auto;
-    left: 47%;
+    left: 47.5%;
     position:absolute;
     text-decoration: none;
     color:#CF381D;
@@ -323,7 +323,7 @@ footer1 {
 
 .imgshake {
     left: 50%;
-    bottom:75px;
+    bottom:65px;
     margin: auto;
     position:absolute;
     text-decoration: none;
@@ -358,7 +358,7 @@ footer1 {
  @media only screen and (max-width: 780px) {
   .work {
     
-    left: 42%;
+    left: 42.5%;
    ´
 
   } 
@@ -367,7 +367,7 @@ footer1 {
  @media only screen and (max-width: 600px) {
   .work {
     
-    left: 33%;
+    left: 33.5%;
    ´
 
   }
