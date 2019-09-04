@@ -334,24 +334,23 @@ footer1 {
 	animation-iteration-count: infinite; 
   }
   
-  @keyframes shake {
+@-webkit-keyframes shake {
 
-	50%{
+	50%{-webkit-transform:translateY(10px);
       transform: translateY(10px);}
 	
-		95%{
+		95%{-webkit-transform:translateY(-10px);
       transform: translateY(-10px);}
 		
   }
-
-  @keyframes shake1 {
-
-	50%{text-shadow: none;}
+@-webkit-keyframes shake1{
+    50%{text-shadow: none;}
 	
 		55%{text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;}
 	
 		95%{text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;}
 			
 		100%{text-shadow: none;}
-		
-  }
+    
+} 
+ 
