@@ -315,12 +315,15 @@ footer1 {
   text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
 	/* When the animation is finished, start again */
 	animation-iteration-count: infinite; 
+     
+  margin-top: -50px;
+  margin-left: -100px;
 
   } 
 
 .imgshake {
     left: 50%;
-    bottom:60px;
+    bottom:75px;
     margin: auto;
     position:absolute;
     text-decoration: none;
