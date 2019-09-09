@@ -307,9 +307,11 @@ footer1 {
     
     bottom:10px;
     margin: auto;
-    left: 47.5%;
+    left: 47%;
     position:absolute;
     text-decoration: none;
+     display: flex !important;
+     font-size: 1.5em;
     color:#CF381D;
      animation: shake 2s;
   text-shadow: -0.5px -0.5px 0 #000, 0.5px -0.5px 0 #000, -0.5px 0.5px 0 #000, 0.5px 0.5px 0 #000;
@@ -322,6 +324,7 @@ footer1 {
   } 
 
 .imgshake {
+    font-size: 1.5em;
     left: 50%;
     bottom:55px;
     margin: auto;
